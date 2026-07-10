@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Moneta Gallino del Principato del Gallo">
+  <defs>
+    <path id="arcTop" d="M 42 200 A 158 158 0 0 1 358 200"/>
+    <path id="arcBottom" d="M 62 200 A 138 138 0 0 0 338 200"/>
+  </defs>
+
+  <!-- Fondo moneta -->
+  <circle cx="200" cy="200" r="196" fill="#1E3A6D" stroke="#D2A63C" stroke-width="6"/>
+  <!-- Zigrinatura del bordo -->
+  <circle cx="200" cy="200" r="184" fill="none" stroke="#D2A63C" stroke-width="4" stroke-dasharray="3 6" opacity="0.85"/>
+  <!-- Anello interno -->
+  <circle cx="200" cy="200" r="148" fill="none" stroke="#D2A63C" stroke-width="1.5" opacity="0.7"/>
+
+  <!-- Iscrizioni circolari -->
+  <text font-family="Georgia, 'Times New Roman', serif" font-size="21" letter-spacing="4" fill="#EBD59A" font-weight="bold">
+    <textPath href="#arcTop" startOffset="50%" text-anchor="middle">PRINCIPATO DEL GALLO</textPath>
+  </text>
+  <text font-family="Georgia, 'Times New Roman', serif" font-size="18" letter-spacing="5" fill="#EBD59A">
+    <textPath href="#arcBottom" startOffset="50%" text-anchor="middle">✦ UN GALLINO ✦</textPath>
+  </text>
+
+  <!-- Gallo araldico (rivolto a sinistra) -->
+  <g fill="#D2A63C">
+    <!-- Coda: tre falciformi -->
+    <path d="M 222 186 Q 288 142 282 86 Q 302 142 246 196 Z"/>
+    <path d="M 226 202 Q 302 176 312 122 Q 317 186 240 212 Z"/>
+    <path d="M 228 216 Q 312 216 327 172 Q 322 236 236 227 Z"/>
+    <!-- Corpo -->
+    <ellipse cx="185" cy="207" rx="48" ry="34"/>
+    <!-- Collo -->
+    <path d="M 130 140 Q 138 162 146 186 L 176 176 Q 166 150 150 134 Z"/>
+    <!-- Testa -->
+    <circle cx="141" cy="131" r="15"/>
+    <!-- Cresta -->
+    <path d="M 128 121 Q 129 103 138 116 Q 140 99 149 113 Q 154 101 158 117 L 152 124 Z" fill="#C4402E"/>
+    <!-- Becco -->
+    <path d="M 127 128 L 107 134 L 127 140 Z"/>
+    <!-- Bargiglio -->
+    <path d="M 132 144 Q 128 162 139 154 Z" fill="#C4402E"/>
+    <!-- Zampe -->
+    <path d="M 172 238 L 170 266 M 162 266 L 180 266" stroke="#D2A63C" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M 198 238 L 200 266 M 192 266 L 210 266" stroke="#D2A63C" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <!-- Occhio -->
+    <circle cx="143" cy="128" r="2.6" fill="#1E3A6D"/>
+    <!-- Dettaglio ala -->
+    <path d="M 168 200 Q 192 188 214 200 Q 192 212 168 200 Z" fill="#1E3A6D" opacity="0.55"/>
+  </g>
+
+  <!-- Millesimo -->
+  <text x="200" y="304" font-family="Georgia, serif" font-size="20" letter-spacing="6" fill="#EBD59A" text-anchor="middle">2026</text>
+</svg>
