@@ -1,0 +1,17 @@
+{
+  "name": "Principato del Gallo",
+  "timestamp": "2026-07-12T12:00:00+00:00",
+  "version": { "major": 1, "minor": 0, "patch": 0 },
+  "keywords": ["community", "micronation", "gallino"],
+  "logoURI": "https://principato-del-gallo.github.io/Gallino/gallino-icon-256.png",
+  "tokens": [
+    {
+      "chainId": 137,
+      "address": "0x0c612496AeD62e77B1F8B0cc9bC64E7d466ab709",
+      "name": "Gallino",
+      "symbol": "GAL",
+      "decimals": 18,
+      "logoURI": "https://principato-del-gallo.github.io/Gallino/gallino-icon-256.png"
+    }
+  ]
+}
